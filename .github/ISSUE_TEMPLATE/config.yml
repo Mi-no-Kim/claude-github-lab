@@ -1,0 +1,6 @@
+# .github/ISSUE_TEMPLATE/config.yml
+blank_issues_enabled: false
+contact_links:
+  - name: 질문 / 논의
+    url: https://github.com/OWNER/REPO/discussions
+    about: 버그도 기능 제안도 아닌 질문은 Discussions를 이용해주세요.
