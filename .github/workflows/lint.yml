@@ -1,0 +1,12 @@
+# .github/workflows/lint.yml
+name: Lint
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:               # <- test.yml과 동일한 job_id (의도적으로 충돌시킴)
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "lint placeholder"
