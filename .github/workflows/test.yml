@@ -3,6 +3,8 @@ name: CI
 on:
   pull_request:
     branches: [main]
+    paths-ignore:
+      - 'docs/**'
 
 jobs:
   test:               # <- job_id. YAML의 키 이름이자 기본 식별자
